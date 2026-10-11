@@ -88,7 +88,7 @@ edgetunnel 后台「自定义优选IP」框填 https://…/nodes.txt
 
 跑完后，你的站点地址是：
 ~~~text
-https://你的GitHub用户名.github.io/仓库名/nodes.txt
+https://laoliu6-laoliu.github.io/gate/nodes.txt
 ~~~
 浏览器打开，能看到一堆 `优选域名:443#国家-住宅-XX …` 的行，就说明全部打通了。
 
@@ -99,7 +99,7 @@ https://你的GitHub用户名.github.io/仓库名/nodes.txt
 1. 进 edgetunnel 后台（你的域名/admin），找到「自定义优选IP」文本框
 2. 粘贴**一行网址**：
    ~~~text
-   https://你的GitHub用户名.github.io/仓库名/nodes.txt
+   https://laoliu6-laoliu.github.io/gate/nodes.txt
    ~~~
 3. 点保存
 4. 客户端刷新订阅 → 每次刷新 edgetunnel 都重新拉取一次 nodes.txt，节点自动更新
