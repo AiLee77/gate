@@ -34,7 +34,7 @@ jobs:
         run: python vpngate.py
         env:
           # 已部署的检测 Worker
-          CHECK_WORKER: "https://gate-check.wzs783.workers.dev/check?sstp=vpn:vpn@"
+          CHECK_WORKER: "https://check.04.us.ci/check?sstp=vpn:vpn@"
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
 
